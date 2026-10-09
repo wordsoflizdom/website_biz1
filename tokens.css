@@ -1,0 +1,31 @@
+/* DESIGN TOKENS: colours, fonts, spacing. Change here to restyle the whole site. */
+:root{
+  --paper:#E8E9E4;      /* cool stone, not beige */
+  --paper-2:#DCDDD6;
+  --ink:#121311;
+  --ink-soft:#4A4C46;
+  --rule:rgba(18,19,17,.22);
+  --accent:#2E7D4F;               /* default */
+  --accent-artists:#2E7D4F;       /* artists: green, as on your canvas */
+  --accent-institutions:#C2307F;  /* institutions: pink, deepened for legibility */
+  --dark:#121311; --on-dark:#E8E9E4;
+
+  --f-display:"Instrument Serif","Times New Roman",serif;
+  --f-body:"Inter Tight","Helvetica Neue",Arial,sans-serif;
+  --f-meta:"IBM Plex Mono",ui-monospace,Menlo,monospace;
+
+  --fs-display:clamp(2.7rem,7.4vw + .4rem,7.6rem);
+  --fs-h1:clamp(2.4rem,5.4vw,5.2rem);
+  --fs-h2:clamp(1.8rem,3.2vw,3rem);
+  --fs-h3:clamp(1.35rem,1.8vw,1.75rem);
+  --fs-body:clamp(1.02rem,.25vw + .97rem,1.18rem);
+  --fs-small:.9rem;
+  --fs-meta:.72rem;
+
+  --gutter:clamp(1.1rem,3.2vw,3rem);
+  --space:clamp(4.5rem,11vw,10rem);
+  --measure:62ch;
+  --ease:cubic-bezier(.2,.7,.2,1);
+}
+[data-theme="artists"]{--accent:var(--accent-artists)}
+[data-theme="institutions"]{--accent:var(--accent-institutions)}
