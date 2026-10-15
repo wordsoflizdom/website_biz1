@@ -1,9 +1,8 @@
 // GLOBAL SETTINGS: name, contact details, navigation, social links. Change here once; it updates everywhere.
 window.SITE = {
   name: "Liz Dom",
-  descriptor: "Curator, researcher & cultural producer",
+  descriptor: "Cultural Producer & Project Development Partner",
   email: "wordsoflizdom@gmail.com",
-  phone: "+27 72 142 6994",
   location: "Johannesburg, working internationally",
   siteUrl: "https://www.example.com",    // <-- REPLACE with your domain once you have one
   nav: [                                  // reorder, rename, or remove lines freely
@@ -14,8 +13,7 @@ window.SITE = {
     { label: "Contact",       href: "contact.html" }
   ],
   social: [                               // delete a line to hide it; add one to show it. REPLACE with your profile links
-    { label: "LinkedIn",  href: "https://www.linkedin.com/" },
-    { label: "Instagram", href: "https://www.instagram.com/" }
+    { label: "LinkedIn",  href: "https://www.linkedin.com/in/liz-dom/" },
   ],
   footerNote: "Independent practice. Engagements scoped around the project."
 };
